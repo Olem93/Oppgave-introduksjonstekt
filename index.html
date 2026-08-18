@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduksjonstekt - Ole Martin</title>
+    <link rel=stylesheet href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <div>
-        <h3>Jeg heter Ole Martin</h3>
+        <h3 id="h3-top">Jeg heter Ole Martin</h3>
          <p><b>Dette er noen av mine hobbyer</b></p>
         <ul>
             <li>Matlaging, spesielt mat italiensk.</li>
@@ -19,8 +22,11 @@
     </div>
 
     <div>
-        <img class="ole-bilde" src="ole-bilde.png">
-        <button>Trykk her for å endre bakgrunnsbilde</button>
+        <img class="ole-bilde" src="ole-bilde.png" alt="ole-bilde">
+    </div>
+
+    <div>
+        <button onclick="endreFarge()">Trykk her for å endre bakgrunnsfarge</button>
     </div>
 
 </body>
