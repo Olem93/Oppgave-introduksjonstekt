@@ -1,5 +1,4 @@
-<script>
-function endreFarge() {
 
-}
-</script>
+function changeColor() {
+    document.body.classList.toggle("colorBG");
+}    

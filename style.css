@@ -1,6 +1,5 @@
-body {
-    background-color:rgb(141, 97, 85);
-    background-size: cover;
+.colorBG {
+    background-color: #4678ab;
 }
 
 .ole-bilde {
@@ -10,7 +9,7 @@ body {
 #h3-top {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
-    color: aqua;
+    color: #4678ab;
 }
 
 #Fargeknapp {
